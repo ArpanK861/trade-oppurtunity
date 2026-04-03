@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Loader2 } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export default function AuthWrapper({ children }) {
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -43,7 +43,7 @@ export default function AuthWrapper({ children }) {
   if (!isAuthorized) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-         <Loader2 className="w-8 h-8 animate-spin text-brand-blue" />
+        <Loader2 className="w-8 h-8 animate-spin text-brand-blue" />
       </div>
     );
   }
