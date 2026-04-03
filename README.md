@@ -2,11 +2,7 @@
 
 A Full-Stack decoupled platform that analyzes Indian market sectors using **Groq AI** and real-time web data to generate structured, presentation-ready trade opportunity reports.
 
-<br>
-<div align="center">
-  <video src="https://github.com/ArpanK861/trade-oppurtunity/raw/main/Trade%20Video.mp4" width="100%" controls></video>
-</div>
-<br>
+https://github.com/ArpanK861/trade-oppurtunity/raw/main/Trade%20Video.mp4
 
 ---
 
