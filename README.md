@@ -4,7 +4,7 @@ A Full-Stack decoupled platform that analyzes Indian market sectors using **Groq
 
 <br>
 <div align="center">
-  <video src="./Trade%20Video.mp4" width="100%" controls></video>
+  <video src="https://github.com/ArpanK861/trade-oppurtunity/raw/main/Trade%20Video.mp4" width="100%" controls></video>
 </div>
 <br>
 
